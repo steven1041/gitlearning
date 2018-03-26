@@ -171,7 +171,7 @@ class Main extends eui.UILayer {
         return result;
     }
     /**
-     * 描述文件加载成功，开始播放动画
+     * 描述文件加载成功，开始播放动画2323232
      * Description file loading is successful, start to play the animation
      */
     private startAnimation(result: Array<any>): void {
