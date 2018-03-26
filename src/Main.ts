@@ -96,7 +96,7 @@ class Main extends eui.UILayer {
 
     private textfield: egret.TextField;
     /**
-     * 创建场景界面
+     * 创建场景界面   进入dev分支
      * Create scene interface
      */
     protected createGameScene(): void {
@@ -150,15 +150,15 @@ class Main extends eui.UILayer {
         textfield.y = 135;
         this.textfield = textfield;
 
-        let button = new eui.Button();
-        button.label = "Click!";
-        button.horizontalCenter = 0;
-        button.verticalCenter = 0;
-        this.addChild(button);
-        button.addEventListener(egret.TouchEvent.TOUCH_TAP, this.onButtonClick, this);
-        console.log('create list $%$', egret.getTimer());
-        let list = new LotteryPage();
-        this.addChild(list);
+        // let button = new eui.Button();
+        // button.label = "Click!";
+        // button.horizontalCenter = 0;
+        // button.verticalCenter = 0;
+        // this.addChild(button);
+        // button.addEventListener(egret.TouchEvent.TOUCH_TAP, this.onButtonClick, this);
+        // console.log('create list $%$', egret.getTimer());
+        // let list = new LotteryPage();
+        // this.addChild(list);
     }
     /**
      * 根据name关键字创建一个Bitmap对象。name属性请参考resources/resource.json配置文件的内容。
