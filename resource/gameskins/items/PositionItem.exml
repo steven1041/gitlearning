@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skin.PositionItem" width="720" height="33" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+    <e:Image id="bg" source="{data.bg}" height="33" width="720" />
+    <e:Label text="{data.no}" fontFamily="Microsoft YaHei" size="18" anchorOffsetX="0" width="63" y="8"
+             textAlign="center" textColor="0x666666" />
+    <e:Group id="myGroup" width="657" height="33" x="64" y="1" anchorOffsetY="0" anchorOffsetX="0">
+        <e:Group x="20" y="13" height="33">
+            <e:Image source="position_blueball_png" verticalCenter="0" horizontalCenter="0" visible="false" />
+            <e:Label text="{data.lottery00}" size="18" fontFamily="Microsoft YaHei" width="32" textAlign="center"
+                     scaleX="1" scaleY="1" height="33" verticalCenter="0" verticalAlign="middle" textColor="0xffffff" />
+        </e:Group>
+        <e:Group x="20" y="13" height="33">
+            <e:Image source="position_blueball_png" verticalCenter="0" horizontalCenter="0" visible="false" />
+            <e:Label size="18" fontFamily="Microsoft YaHei" width="32" textAlign="center" scaleX="1" scaleY="1"
+                     text="{data.lottery01}" height="33" verticalCenter="0" verticalAlign="middle" textColor="0xffffff" />
+        </e:Group>
+        <e:Group x="30" y="23" height="33">
+            <e:Image source="position_blueball_png" verticalCenter="0" horizontalCenter="0" visible="false" />
+            <e:Label size="18" fontFamily="Microsoft YaHei" width="32" textAlign="center" scaleX="1" scaleY="1"
+                     text="{data.lottery02}" height="33" verticalCenter="0" verticalAlign="middle" textColor="0xffffff" />
+        </e:Group>
+        <e:Group x="40" y="33" height="33">
+            <e:Image source="position_blueball_png" verticalCenter="0" horizontalCenter="0" visible="false" />
+            <e:Label size="18" fontFamily="Microsoft YaHei" width="32" textAlign="center" scaleX="1" scaleY="1"
+                     text="{data.lottery03}" height="33" verticalCenter="0" verticalAlign="middle" textColor="0xffffff" />
+        </e:Group>
+        <e:Group x="50" y="43" height="33">
+            <e:Image source="position_blueball_png" verticalCenter="0" horizontalCenter="0" visible="false" />
+            <e:Label size="18" fontFamily="Microsoft YaHei" textColor="0xffffff" width="32" textAlign="center"
+                     scaleX="1" scaleY="1" text="{data.lottery04}" height="33" verticalCenter="0" verticalAlign="middle" />
+        </e:Group>
+        <e:Group x="60" y="53" height="33">
+            <e:Image source="position_blueball_png" verticalCenter="0" horizontalCenter="0" visible="false" />
+            <e:Label size="18" fontFamily="Microsoft YaHei" textColor="0xffffff" width="32" textAlign="center"
+                     scaleX="1" scaleY="1" text="{data.lottery05}" height="33" verticalCenter="0" verticalAlign="middle" />
+        </e:Group>
+        <e:Group x="70" y="63" height="33">
+            <e:Image source="position_blueball_png" verticalCenter="0" horizontalCenter="0" visible="false" />
+            <e:Label size="18" fontFamily="Microsoft YaHei" textColor="0xffffff" width="32" textAlign="center"
+                     scaleX="1" scaleY="1" text="{data.lottery06}" height="33" verticalCenter="0" verticalAlign="middle" />
+        </e:Group>
+        <e:Group x="80" y="73" height="33">
+            <e:Image source="position_blueball_png" verticalCenter="0" horizontalCenter="0" visible="false" />
+            <e:Label size="18" fontFamily="Microsoft YaHei" textColor="0xffffff" width="32" textAlign="center"
+                     scaleX="1" scaleY="1" text="{data.lottery07}" height="33" verticalCenter="0" verticalAlign="middle" />
+        </e:Group>
+        <e:Group x="90" y="83" height="33">
+            <e:Image source="position_blueball_png" verticalCenter="0" horizontalCenter="0" visible="false" />
+            <e:Label size="18" fontFamily="Microsoft YaHei" textColor="0xffffff" width="32" textAlign="center"
+                     scaleX="1" scaleY="1" text="{data.lottery08}" height="33" verticalCenter="0" verticalAlign="middle" />
+        </e:Group>
+        <e:Group x="100" y="93" height="33">
+            <e:Image source="position_blueball_png" verticalCenter="0" horizontalCenter="0" visible="false" />
+            <e:Label size="18" fontFamily="Microsoft YaHei" textColor="0xffffff" width="32" textAlign="center"
+                     scaleX="1" scaleY="1" text="{data.lottery09}" height="33" verticalAlign="middle" />
+        </e:Group>
+        <e:Group x="110" y="103" height="33">
+            <e:Image source="position_blueball_png" verticalCenter="0" horizontalCenter="0" visible="false" />
+            <e:Label size="18" fontFamily="Microsoft YaHei" textColor="0xffffff" width="32" textAlign="center"
+                     scaleX="1" scaleY="1" text="{data.lottery10}" height="33" verticalAlign="middle" />
+        </e:Group>
+        <e:Group x="120" y="113" height="33">
+            <e:Image source="position_blueball_png" verticalCenter="0" horizontalCenter="0" visible="false" />
+            <e:Label size="18" fontFamily="Microsoft YaHei" textColor="0xffffff" width="32" textAlign="center"
+                     scaleX="1" scaleY="1" text="{data.lottery11}" height="33" verticalCenter="0" verticalAlign="middle" />
+        </e:Group>
+        <e:Group x="130" y="123" height="33">
+            <e:Image source="position_blueball_png" verticalCenter="0" horizontalCenter="0" visible="false" />
+            <e:Label size="18" fontFamily="Microsoft YaHei" textColor="0xffffff" width="32" textAlign="center"
+                     scaleX="1" scaleY="1" text="{data.lottery12}" height="33" verticalAlign="middle" />
+        </e:Group>
+        <e:Group x="140" y="133" height="33">
+            <e:Image source="position_blueball_png" verticalCenter="0" horizontalCenter="0" visible="false" />
+            <e:Label size="18" fontFamily="Microsoft YaHei" textColor="0xffffff" width="32" textAlign="center"
+                     scaleX="1" scaleY="1" text="{data.lottery13}" height="33" verticalAlign="middle" />
+        </e:Group>
+        <e:Group x="150" y="143" height="33">
+            <e:Image source="position_blueball_png" verticalCenter="0" horizontalCenter="0" visible="false" />
+            <e:Label size="18" fontFamily="Microsoft YaHei" textColor="0xffffff" width="32" textAlign="center"
+                     scaleX="1" scaleY="1" text="{data.lottery14}" height="33" verticalAlign="middle" />
+        </e:Group>
+        <e:Group x="160" y="153" height="33">
+            <e:Image source="position_blueball_png" verticalCenter="0" horizontalCenter="0" visible="false" />
+            <e:Label size="18" fontFamily="Microsoft YaHei" textColor="0xffffff" width="32" textAlign="center"
+                     scaleX="1" scaleY="1" text="{data.lottery15}" height="33" verticalAlign="middle" />
+        </e:Group>
+        <e:Group x="170" y="163" height="33">
+            <e:Image source="position_blueball_png" verticalCenter="0" horizontalCenter="0" visible="false" />
+            <e:Label size="18" fontFamily="Microsoft YaHei" textColor="0xffffff" width="32" textAlign="center"
+                     scaleX="1" scaleY="1" text="{data.lottery16}" height="33" verticalAlign="middle" />
+        </e:Group>
+        <e:Group x="180" y="173" height="33">
+            <e:Image source="position_blueball_png" verticalCenter="0" horizontalCenter="0" visible="false" />
+            <e:Label size="18" fontFamily="Microsoft YaHei" textColor="0xffffff" width="32" textAlign="center"
+                     scaleX="1" scaleY="1" text="{data.lottery17}" height="33" verticalAlign="middle" />
+        </e:Group>
+        <e:Group x="190" y="183" height="33">
+            <e:Image source="position_blueball_png" verticalCenter="0" horizontalCenter="0" visible="false" />
+            <e:Label size="18" fontFamily="Microsoft YaHei" textColor="0xffffff" width="32" textAlign="center"
+                     scaleX="1" scaleY="1" text="{data.lottery18}" height="33" verticalAlign="middle" />
+        </e:Group>
+        <e:Group x="200" y="193" height="33">
+            <e:Image source="position_blueball_png" verticalCenter="0" horizontalCenter="0" visible="false" />
+            <e:Label size="18" fontFamily="Microsoft YaHei" textColor="0xffffff" width="32" textAlign="center"
+                     scaleX="1" scaleY="1" text="{data.lottery19}" height="33" verticalAlign="middle" />
+        </e:Group>
+        <e:layout>
+            <e:HorizontalLayout verticalAlign="middle" gap="0.9" />
+        </e:layout>
+    </e:Group>
+</e:Skin>

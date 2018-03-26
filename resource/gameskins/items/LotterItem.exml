@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skin.LotterItem" width="720" height="66" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="{data.bg}" />
+	<e:Label text="{data.no}" x="2" textColor="0x333333" fontFamily="Microsoft YaHei" anchorOffsetX="0" verticalCenter="0"
+	         width="115" textAlign="center" />
+	<e:Group id="lotteryG" width="440" height="66" x="121" anchorOffsetX="0">
+		<e:Group x="9" y="8">
+			<e:Image source="lotteryitem_blueball_png" />
+			<e:Label text="{data.lottery0}" fontFamily="Microsoft YaHei" x="4" y="7" />
+		</e:Group>
+		<e:Group x="19" y="18">
+			<e:Image source="lotteryitem_blueball_png" />
+			<e:Label text="{data.lottery1}" fontFamily="Microsoft YaHei" x="4" y="7" />
+		</e:Group>
+		<e:Group x="29" y="28">
+			<e:Image source="lotteryitem_blueball_png" />
+			<e:Label text="{data.lottery2}" fontFamily="Microsoft YaHei" x="4" y="7" />
+		</e:Group>
+		<e:Group x="39" y="38">
+			<e:Image source="lotteryitem_blueball_png" />
+			<e:Label text="{data.lottery3}" fontFamily="Microsoft YaHei" x="4" y="7" />
+		</e:Group>
+		<e:Group x="49" y="48">
+			<e:Image source="lotteryitem_blueball_png" />
+			<e:Label text="{data.lottery4}" fontFamily="Microsoft YaHei" x="4" y="7" />
+		</e:Group>
+		<e:Group x="59" y="58">
+			<e:Image source="lotteryitem_blueball_png" />
+			<e:Label text="{data.lottery5}" fontFamily="Microsoft YaHei" x="4" y="7" />
+		</e:Group>
+		<e:Group x="69" y="68">
+			<e:Image source="lotteryitem_blueball_png" />
+			<e:Label text="{data.lottery6}" fontFamily="Microsoft YaHei" x="4" y="7" />
+		</e:Group>
+		<e:Group x="79" y="78">
+			<e:Image source="lotteryitem_blueball_png" />
+			<e:Label text="{data.lottery7}" fontFamily="Microsoft YaHei" x="4" y="7" />
+		</e:Group>
+		<e:layout>
+			<e:HorizontalLayout verticalAlign="middle" paddingLeft="12" gap="10" />
+		</e:layout>
+	</e:Group>
+	<e:Label id="openTime" text="{data.time}" x="564" size="24" fontFamily="Microsoft YaHei" textColor="0x666666"
+	         verticalCenter="0" anchorOffsetX="0" width="156" textAlign="center" />
+</e:Skin>

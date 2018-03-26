@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skin.OmitItem" width="720" height="51" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+    <e:Image id="bg" source="{data.bg}" />
+    <e:Label size="24" textColor="0x333333" anchorOffsetX="0" verticalCenter="0" width="141" textAlign="center"
+             height="100%" verticalAlign="middle" x="260" text="{data.probability}" />
+    <e:Label size="24" textColor="0x333333" anchorOffsetX="0" verticalCenter="0.5" width="127" textAlign="center"
+             height="100%" verticalAlign="middle" text="{data.key}" />
+    <e:Label size="24" textColor="0x333333" anchorOffsetX="0" verticalCenter="1" width="127" textAlign="center"
+             height="100%" verticalAlign="middle" x="130" text="{data.curmisscnt}" />
+    <e:Label size="24" textColor="0x333333" anchorOffsetX="0" verticalCenter="1" width="167" textAlign="center"
+             height="100%" verticalAlign="middle" x="401" text="{data.maxmisscnt}" />
+    <e:Image source="omit_itemicon_png" x="608" y="17" />
+    <e:Image source="omit_act0_png" x="654" verticalCenter="0" />
+</e:Skin>

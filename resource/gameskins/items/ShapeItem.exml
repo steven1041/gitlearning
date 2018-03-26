@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skin.ShapeItem" width="720" height="49" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="bg" height="49" source="{data.bg}"/>
+	<e:Group width="720" height="49">
+		<e:Label text="{data.no}" size="24" textColor="0x333333" width="119" height="49" verticalAlign="middle" textAlign="center" x="0" y="0" scaleX="1" scaleY="1"/>
+		<e:Label text="{data.big}" size="24" textColor="0x333333" width="119" height="49" verticalAlign="middle" textAlign="center" x="10" y="10" scaleX="1" scaleY="1"/>
+		<e:Label text="{data.odd}" size="24" textColor="0x333333" width="119" height="49" verticalAlign="middle" textAlign="center" x="20" y="20" scaleX="1" scaleY="1"/>
+		<e:Label text="{data.prime}" size="24" textColor="0x333333" width="119" height="49" verticalAlign="middle" textAlign="center" x="30" y="30" scaleX="1" scaleY="1"/>
+		<e:Label text="{data.weight}" size="24" textColor="0x333333" width="119" height="49" verticalAlign="middle" textAlign="center" x="40" y="40" scaleX="1" scaleY="1"/>
+		<e:Label text="{data.road}" size="24" textColor="0x333333" width="119" height="49" verticalAlign="middle" textAlign="center" x="50" y="50" scaleX="1" scaleY="1"/>
+		<e:layout>
+			<e:HorizontalLayout gap="0" horizontalAlign="left" verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

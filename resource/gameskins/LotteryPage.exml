@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skin.LotteryPage" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+    <e:Image id="bg" source="ana_bg_jpg" locked="true" />
+    <e:Image source="ana_tabbg_png" y="112" locked="true" />
+    <e:Group id="topGroup" width="720" height="110" y="0" anchorOffsetY="0" anchorOffsetX="0" locked="true">
+        <e:Rect id="btn_return" width="130" height="72" x="10" y="30" anchorOffsetX="0" anchorOffsetY="0" fillAlpha="0" />
+        <e:Rect id="btn_set" width="92" height="66" x="618" y="32" anchorOffsetX="0" anchorOffsetY="0" fillAlpha="0" />
+    </e:Group>
+    <e:Group width="100%" height="100%" name="Group" y="196.96">
+        <e:Image source="lottery_topbg_jpg" y="-4" />
+        <e:Scroller id="scroller_lottery" width="720" height="1030" y="46" anchorOffsetX="0" anchorOffsetY="0">
+            <e:Group id="myG">
+                <e:layout>
+                    <e:BasicLayout/>
+                </e:layout>
+                <e:List id="list_lottery" width="720" useVirtualLayout="true" x="0" y="-46" scaleX="1" scaleY="1" />
+            </e:Group>
+        </e:Scroller>
+    </e:Group>
+    <e:Group id="tabGroup" y="114" height="82" width="720">
+        <e:Group id="tab0" x="26" y="8" width="146" height="45">
+            <e:Label text="开奖" fontFamily="Microsoft YaHei" scaleX="1" scaleY="1" horizontalCenter="0"
+                     verticalCenter="0" textColor="0xf11300" />
+            <e:Image source="ana_tabline_png" x="-6" y="61" />
+        </e:Group>
+        <e:Group id="tab1" x="152" y="2" width="146" height="45">
+            <e:Label text="走势" fontFamily="Microsoft YaHei" scaleX="1" scaleY="1" horizontalCenter="0"
+                     verticalCenter="0" textColor="0x999999" />
+            <e:Image source="ana_tabline_png" x="-6" y="61" visible="false" />
+        </e:Group>
+        <e:Group id="tab2" x="328" y="18" width="146" height="45">
+            <e:Label text="形态" fontFamily="Microsoft YaHei" textColor="0x999999" scaleX="1" scaleY="1"
+                     horizontalCenter="0" verticalCenter="0" />
+            <e:Image source="ana_tabline_png" x="-6" y="61" visible="false" />
+        </e:Group>
+        <e:Group id="tab3" x="36" y="18" width="146" height="45">
+            <e:Label text=" 定位" fontFamily="Microsoft YaHei" textColor="0x999999" scaleX="1" scaleY="1"
+                     horizontalCenter="0" verticalCenter="0" />
+            <e:Image source="ana_tabline_png" x="-6" y="61" visible="false" />
+        </e:Group>
+        <e:layout>
+            <e:HorizontalLayout paddingLeft="40" paddingRight="30" gap="20" verticalAlign="middle" paddingTop="0"
+                                paddingBottom="0" horizontalAlign="left" />
+        </e:layout>
+    </e:Group>
+</e:Skin>
