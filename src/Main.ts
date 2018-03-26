@@ -196,7 +196,7 @@ class Main extends eui.UILayer {
             tw.to({ "alpha": 0 }, 200);
             tw.call(change, this);
         };
-
+        console.log('增加几个字');
         change();
     }
 
